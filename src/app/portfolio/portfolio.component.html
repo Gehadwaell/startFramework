@@ -1,0 +1,24 @@
+
+<div class="portfolio">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="content mt-4 text-center">
+            <h1>PORTFOLIO COMPONENT</h1>
+            <div class="decor text-center mt-3">
+                <i class="icon fa-solid fa-star"></i>
+            </div>
+            <div class="row g-5 mt-1">
+                <div class="col-md-4"  *ngFor="let src of srcimg">
+                    <div class="img-box">
+                        <img [src]="src" alt="" class="image">
+                        <div (click)="flag=false;fullImg=src" class="zoom d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-plus icon"></i>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+</div>
+<div (click)="hideModel($event.target,img)" [class.d-none]="flag" class="zoomed-img position-fixed start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center ">
+    <img #img [src]="fullImg" alt="">
+
+</div>

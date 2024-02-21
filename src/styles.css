@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --main-color: #1ABC9C;
+    --light-color: #f0f3f2;
+  }
+
+
+.homeTitles{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.navStyle{
+    font-size: 16px!important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+    font-weight: 700!important;
+    color: rgb(255, 255, 255)!important; 
+}
+
+.navFooterbg{
+    background-color: #2C3E50!important;
+}
+
+.active-link {
+    background-color: var(--main-color) !important;
+    color: var(--light-color) !important;
+    border-radius: 5px;
+  }
+
+.footerHeadings{
+    font-size: 28px!important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+    font-weight: 500!important;
+    color: rgb(255, 255, 255)!important;    
+}
+
+.footerP{
+    font-size: 16px!important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+    font-weight: 400!important;
+    color: rgb(255, 255, 255)!important;    
+}
+
+.zoomed-img{
+    z-index: 2000;
+}

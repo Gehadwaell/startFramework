@@ -1,0 +1,59 @@
+
+.contact{
+    height: 90vh;
+    padding-top:120px;
+}
+
+
+.decor {
+    position: relative;
+  }
+  
+  .decor::before,
+  .decor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    height: 4px;
+    background-color: #2C3E50;
+  }
+  
+  .decor::before {
+    right: calc(52% + 5px); 
+    transform: translateY(-50%);
+  }
+  
+  .decor::after {
+    left: calc(52% + 5px); 
+    transform: translateY(-50%);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block; 
+    margin-bottom: 5px; 
+  }
+
+  .input-style{
+    border-top: transparent!important;
+    border-left: transparent!important;
+    border-right: transparent!important;
+  }
+
+  label{
+    color:#1ABC9C;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+  .top{
+    top:40px!important;
+  }
+  

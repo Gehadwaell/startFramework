@@ -1,0 +1,24 @@
+.circle-icons .icon {
+    margin-right: 15px; 
+    font-size: 20px;
+  }
+
+  .icon{
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color:transparent!important;
+    color:white;
+    margin: 5px;
+    padding: 10px;
+    transition:all 0.5s ;
+
+}
+
+.copyrights{
+    background-color: #1A252F;
+}

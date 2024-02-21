@@ -1,0 +1,49 @@
+.home-bg{
+    margin-top: 40px;
+    background-color: #1ABC9C;
+    height: 100vh;
+}
+
+.avtar{
+    padding-top: 90px;
+}
+.avtar img{
+    width: 65%;
+
+}
+.avtar h1{
+padding-top: 35px; 
+font-size: 40px;
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: 700;
+color: rgb(255, 255, 255); 
+}
+
+.decor .icon{
+    color: white;
+}
+
+.decor {
+    position: relative;
+  }
+  
+  .decor::before,
+  .decor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 23%;
+    height: 4px;
+    background-color: white;
+  }
+  
+  .decor::before {
+    right: calc(55% + 5px); 
+    transform: translateY(-50%);
+  }
+  
+  .decor::after {
+    left: calc(55% + 5px); 
+    transform: translateY(-50%);
+  }
+  

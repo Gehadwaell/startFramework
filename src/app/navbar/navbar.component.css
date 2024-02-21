@@ -1,0 +1,9 @@
+.scrolled {
+    padding-top: 10px!important; /* Adjust as needed */
+    padding-bottom: 10px!important; /* Adjust as needed */
+  }
+
+  .navbar {
+    transition: padding 0.5s ease;
+
+}
